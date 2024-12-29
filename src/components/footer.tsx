@@ -5,6 +5,9 @@ function Footer() {
       <div className="flex space-x-2">
         <div>Github </div>
         <div>Discord </div>
+        <p>
+          &copy; {new Date().getFullYear()} My Website. All rights reserved.
+        </p>
       </div>
     </div>
   );
